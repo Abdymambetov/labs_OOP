@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-# Абстрактный класс Animal
+
 class Animal(ABC):
     def __init__(self, name, age, weight):
         self._name = name  
@@ -66,7 +66,7 @@ class Penguin(Animal):
         return self._weight * 0.03  # 3% от веса
 
 
-# Класс Zoo
+
 class Zoo:
     def __init__(self):
         self.animals = []
